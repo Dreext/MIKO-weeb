@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mikko Salvador — Personal Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Mikko Salvador</h1>
+      <p class="tagline">BSCS Student · Creative · Developer</p>
+      <div class="actions">
+        <button id="projectsBtn" class="btn">View Portfolio</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p style="color:var(--text-muted);font-size:1.1rem;line-height:1.7;">Wait, you already know my name. I'm a third-year Computer Science (BSCS) student passionate about design and development. I enjoy bringing creative ideas to life through code and visual storytelling.</p>
+    </section>
+
+    <section id="hobbies" class="card">
+      <h2>Interests</h2>
+      <ul>
+        <li>Gaming & Esports</li>
+        <li>Motorcycle Touring</li>
+        <li>Competitive Sports</li>
+      </ul>
+    </section>
+
+    <section id="favorites" class="card">
+      <h2>Digital Spaces</h2>
+      <ul>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.netflix.com" target="_blank" rel="noopener">Netflix</a></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card projects hidden">
+      <h2>Creative Works</h2>
+      <p class="muted">A collection of my academic and personal design projects, organized by technique.</p>
+      <div id="projectsGrid" class="projects-grid"></div>
+      <div style="text-align:center;margin-top:40px;">
+        <button id="closeProjects" class="btn secondary">Close Gallery</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
